@@ -15,3 +15,7 @@ Aplicação para registro emocional diário.
 ## Tecnologias
 
 HTML, CSS, JavaScript, Chart.js, jsPDF, LocalStorage.
+
+acesse aqui:
+https://magdiel-dev7.github.io/moodDay/
+
