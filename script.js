@@ -82,7 +82,7 @@ moodButtons.forEach(button =>{
             }
 
             if(filteredEntries.length === 0){
-                historyList.innerHTML = "<p>Nenhuma registro encontrado</p>"
+                historyList.innerHTML = "<p>Nenhum registro encontrado</p>"
                 return;
             }
 
