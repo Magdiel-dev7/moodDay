@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MoodDay</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="container">
+
+            <header>
+                <h1>MoodDay</h1>
+                <p>Como você está hoje?</p>
+            </header>
+
+            <section class="moods">
+                <button class="mood" data-mood="😊">😊</button>
+                <button class="mood" data-mood="😔">😔</button>
+                <button class="mood" data-mood="😰">😰</button>
+                <button class="mood" data-mood="😴">😴</button>
+                <button class="mood" data-mood="😎">😎</button>
+
+
+            </section>
+
+            <section class="note-area">
+                <textarea id="note" placeholder="Quer escrever algo sobre hoje?"></textarea>
+                <div class="buttons">
+                <button id="saveBtn">Salvar Registro</button> 
+                <button id="exportBtn">Exportar PDF</button>
+                </div>
+            </section>
+
+            <section class="history">
+                <h2>Histórico</h2>
+                <div id="historyList"></div>
+            </section>
+
+            <label for="filterMood"><h4>Filtrar Emoções</h4></label>
+            <select id="filterMood">
+                <option value="all">Todos</option>
+                <option value="😊">😊 Feliz</option>
+                <option value="😔">😔 Triste</option>
+                <option value="😰">😰 Ansioso</option>
+                <option value="😴">😴 Cansado</option>
+                <option value="😎">😎 Motivado</option>
+            </select>
+
+            <section class="chart-area">
+                <h2>Resumo da Semana</h2>
+                <canvas id="moodChart"></canvas>
+            </section>
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
+
