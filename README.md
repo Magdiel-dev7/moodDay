@@ -5,7 +5,7 @@ O **MoodDay** é uma aplicação interativa de registro diário de humor e notas
 ---
 
 ## 🔗 Link da Aplicação Online
-🚀 [Clique aqui para acessar o MoodDay na Vercel]([COLE_O_LINK_DA_VERCEL_AQUI](https://moodday-react.vercel.app/))
+🚀 [Clique aqui para acessar o MoodDay na Vercel]([(https://moodday-react.vercel.app/)])
 
 ---
 
