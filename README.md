@@ -5,7 +5,7 @@ O **MoodDay** é uma aplicação interativa de registro diário de humor e notas
 ---
 
 ## 🔗 Link da Aplicação Online
-🚀 [Clique aqui para acessar o MoodDay na Vercel](COLE_O_LINK_DA_VERCEL_AQUI)
+🚀 [Clique aqui para acessar o MoodDay na Vercel]([COLE_O_LINK_DA_VERCEL_AQUI](https://moodday-react.vercel.app/))
 
 ---
 
@@ -36,6 +36,3 @@ O **MoodDay** é uma aplicação interativa de registro diário de humor e notas
 * **Gerenciamento de Estado Global do Componente:** Uso estratégico dos Hooks `useState` para controle de inputs, listas e filtros, e `useEffect` para ciclos de vida e persistência de dados.
 * **Manipulação de Bibliotecas Complexas no React:** Integração e limpeza de instâncias do *Chart.js* usando referências do DOM (`useRef`) para evitar vazamentos de memória (memory leaks) e sobreposição de gráficos.
 * **Consumo de APIs Assíncronas:** Uso avançado de `Async/Await` e `Fetch API` para comunicação com serviços externos de previsão do tempo, tratando fallbacks de erros de forma amigável para o usuário.
-
-* acesse aqui:  
-  (https://moodday-react.vercel.app/)
